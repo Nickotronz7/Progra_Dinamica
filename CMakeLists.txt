@@ -3,5 +3,5 @@ project(Progra_Dinamica)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES Mochila.cpp main.cpp Mochila.h Max_Donations.cpp Max_Donations.h)
+set(SOURCE_FILES Mochila.cpp main.cpp Mochila.h Fibo.cpp Fibo.h)
 add_executable(Progra_Dinamica ${SOURCE_FILES})
